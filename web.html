@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Google Registration Form</title>
+  <style>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #F7F7F7; /* light grey background */
+  }
+  form {
+    width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* increased shadow */
+    background-color: #8B0A1A; /* dark brown background for form */
+    color: #FFFFFF; /* white text color */
+  }
+  .form-group {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #FFFFFF; /* white border */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* increased shadow */
+    background-color: #FFFFFF; /* white background for form group */
+ }
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #000000; /* black text color */
+  }
+  .input-field {
+    padding: 10px;
+  }
+  input[type="text"], input[type="email"], input[type="tel"], input[type="password"] {
+    width: 250px;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: blue;
+  }
+  input[type="submit"] {
+    background-color: #8B0A1A; /* brown background */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* added shadow to submit button */
+  }
+</style>
+</head>
+<body>
+  <form>
+  <h2>Google Registration Form</h2>
+    <div class="form-group">
+      <label for="firstName">First Name:</label>
+      <div class="input-field">
+        <input type="text" id="firstName" name="firstName">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="lastName">Second Name:</label>
+      <div class="input-field">
+        <input type="text" id="lastName" name="lastName">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="email">Email ID:</label>
+      <div class="input-field">
+        <input type="email" id="email" name="email">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="username">Select User Name:</label>
+      <div class="input-field">
+        <input type="text" id="username" name="username">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="phoneNumber">Phone Number:</label>
+      <div class="input-field">
+        <input type="tel" id="phoneNumber" name="phoneNumber">
+  </div>
+    </div>
+    <div class="form-group">
+      <label for="dateOfBirth">Date of Birth:</label>
+      <div class="input-field">
+        <input type="date" id="dateOfBirth" name="dateOfBirth">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="choosePassword">Choose Password:</label>
+      <div class="input-field">
+        <input type="password" id="choosePassword" name="choosePassword">
+      </div>
+    </div>
+    <div class="form-group">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</body>
+</html>
